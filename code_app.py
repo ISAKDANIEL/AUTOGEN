@@ -14,7 +14,7 @@ async def main():
     api_key = os.getenv("OPENAI_API_KEY")
 
     if not api_key:
-        print("❌ API key not found. Check your .env file.")
+        print("API key not found. Check your .env file.")
         return
 
     # Create OpenAI model client
@@ -38,7 +38,7 @@ async def main():
         user_input = input("You: ")
 
         if user_input.lower() == "exit":
-            print("👋 Goodbye brother!")
+            print("Goodbye brother!")
             break
 
         # Send task to assistant
