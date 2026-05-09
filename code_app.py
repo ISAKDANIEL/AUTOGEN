@@ -8,7 +8,6 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 # Load API key from .env
 load_dotenv()
 
-
 async def main():
     # Get API key
     api_key = os.getenv("OPENAI_API_KEY")
