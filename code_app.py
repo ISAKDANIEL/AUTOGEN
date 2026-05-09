@@ -21,7 +21,6 @@ async def main():
         model="gpt-4o-mini",
         api_key=api_key,
     )
-
     # Create Assistant Agent
     assistant = AssistantAgent(
         name="assistant",
